@@ -4,12 +4,14 @@ import { graphql, StaticQuery } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
-import Clients from "../components/clients"
+import Clients from "../components/Clients"
 import WhoWeAre from "../components/WhoWeAre"
+import Attorneys from "../components/Attorneys"
 
 // import "../utils/global.scss"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
+
 const Home = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
@@ -67,11 +69,7 @@ const Home = ({ data }, location) => {
         </div>
       </article>
       <Clients />
-      <article className="post-content page-template no-image">
-        <div className="post-content-body">
-          <h1 id="this-is-a-section">-- Our Attorneys--</h1>
-        </div>
-      </article>
+      <Attorneys />
     </Layout>
   )
 }
