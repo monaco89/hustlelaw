@@ -4,7 +4,7 @@ import { graphql, StaticQuery } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
-import Clients from "../components/Clients"
+// import Clients from "../components/Clients"
 import WhoWeAre from "../components/WhoWeAre"
 import Attorneys from "../components/Attorneys"
 import HLLogo from "../images/HL_no_background_white.png"
@@ -77,7 +77,6 @@ const Home = ({ data }, location) => {
           <h1 id="this-is-a-section">-- Featured Clients --</h1>
         </div>
       </article>
-      <Clients />
       <Attorneys />
     </Layout>
   )
