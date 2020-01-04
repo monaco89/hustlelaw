@@ -6,5 +6,6 @@ module.exports = {
   url: "https://hustlelawgroup.com", // Domain of site without prefix
   prefix: "/",
   author: "Nick Monaco",
-  twitter: "",
+  twitter: "https://twitter.com/hustle_law",
+  fb: "https://www.facebook.com/hustlelaw",
 }

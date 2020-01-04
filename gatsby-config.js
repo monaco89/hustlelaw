@@ -7,9 +7,9 @@ module.exports = {
     author: siteConfig.author,
     description: siteConfig.description,
     siteUrl: urljoin(siteConfig.url, siteConfig.prefix),
-    // TODO Add more
     social: {
       twitter: siteConfig.twitter,
+      fb: siteConfig.fb,
     },
   },
   plugins: [
@@ -61,7 +61,6 @@ module.exports = {
           require("postcss-easy-import")(),
           require("postcss-custom-properties")({ preserve: false }),
           require("postcss-color-function")(),
-          require("autoprefixer")({ browsers: ["last 2 versions"] }),
         ],
       },
     },
@@ -89,7 +88,7 @@ module.exports = {
         short_name: siteConfig.shortName,
         start_url: siteConfig.prefix,
         background_color: `#ffffff`,
-        theme_color: `#2da5dc`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
         // TODO Change icon
         icon: `content/assets/gatsby-icon.png`,
