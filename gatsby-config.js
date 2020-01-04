@@ -7,6 +7,7 @@ module.exports = {
     author: siteConfig.author,
     description: siteConfig.description,
     siteUrl: urljoin(siteConfig.url, siteConfig.prefix),
+    // TODO Add more
     social: {
       twitter: siteConfig.twitter,
     },
@@ -46,7 +47,6 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
@@ -72,8 +72,8 @@ module.exports = {
         develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         // whitelist: ['whitelist'], // Don't remove this selector
-        ignore: ['/ignored.css', 'prismjs/', '/prism.css', 'docsearch.js/'], // Ignore files/folders
-        purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
+        ignore: ["/ignored.css", "prismjs/", "/prism.css", "docsearch.js/"], // Ignore files/folders
+        purgeOnly: ["components/", "/main.css", "bootstrap/"], // Purge only these files/folders
       },
     },
     {
@@ -82,7 +82,6 @@ module.exports = {
         trackingId: ``,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -90,8 +89,9 @@ module.exports = {
         short_name: siteConfig.shortName,
         start_url: siteConfig.prefix,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#2da5dc`,
         display: `minimal-ui`,
+        // TODO Change icon
         icon: `content/assets/gatsby-icon.png`,
       },
     },
