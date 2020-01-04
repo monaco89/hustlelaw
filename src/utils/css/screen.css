@@ -557,7 +557,7 @@ body {
 /* ---------------------------------------------------------- */
 
 .post-content {
-  max-width: 720px;
+  max-width: 920px;
   margin: 0 auto;
   padding: 6vw 0;
 }
@@ -589,13 +589,13 @@ body {
 }
 
 .post-content-image {
-  margin: 4vw 0;
+  /* margin: 4vw 0; */
   position: relative;
-  width: 75vw;
+  /* width: 75vw;
   min-width: 100%;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  transform: translateX(calc(50vw - 50%));
+  transform: translateX(calc(50vw - 50%)); */
 }
 
 .post-content-body {

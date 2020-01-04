@@ -28,6 +28,13 @@ const Home = ({ data }, location) => {
           <h2 className="page-head-title">
             {data.site.siteMetadata.description}
           </h2>
+          <a
+            href="#"
+            className="button primary large"
+            style={{ marginTop: "50px" }}
+          >
+            Schedule Your Free Consultation
+          </a>
         </header>
       )}
       <WhoWeAre />
@@ -46,7 +53,7 @@ const Home = ({ data }, location) => {
       </div>
       {/* // TODO Don't do this... */}
       <article className="post-content page-template no-image">
-        <div className="post-content-body">
+        <div id="services" className="post-content-body">
           <h1 id="this-is-a-section">-- Services --</h1>
         </div>
       </article>
