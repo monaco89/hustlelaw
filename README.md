@@ -6,7 +6,7 @@
 
 # Hustle Law Group.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e07f80ec-98e1-4f05-bf68-584502fe2dff/deploy-status)](https://app.netlify.com/sites/xenodochial-northcutt-862e4c/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0ca56d69-8f0c-4559-b896-af1d4f11d108/deploy-status)](https://app.netlify.com/sites/quizzical-murdock-e7e931/deploys)
 
 ## Local Development
 
