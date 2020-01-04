@@ -1,7 +1,6 @@
 ---
 title: On-Demand General Counsel
 date: "2015-05-28T22:40:32.169Z"
-description: TODO Description
 thumbnail: ./counsel.jpg
 ---
 

@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Logo from "../images/HLlogo(nobkround).png"
-
 const Layout = props => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)

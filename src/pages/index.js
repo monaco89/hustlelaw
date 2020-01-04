@@ -7,6 +7,7 @@ import PostCard from "../components/postCard"
 import Clients from "../components/Clients"
 import WhoWeAre from "../components/WhoWeAre"
 import Attorneys from "../components/Attorneys"
+import HLLogo from "../images/HL_no_background_white.png"
 
 // import "../utils/global.scss"
 import "../utils/normalize.css"
@@ -26,8 +27,9 @@ const Home = ({ data }, location) => {
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
-            {data.site.siteMetadata.description}
+            <img src={HLLogo} />
           </h2>
+          <h5 id="heading-level-5">{data.site.siteMetadata.description}</h5>
           <a
             href="#"
             className="button primary large"
