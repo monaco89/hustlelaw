@@ -28,7 +28,7 @@ const Home = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="Hustle Law Group"
+        title="Hustle Law"
         keywords={[`hustle`, `law`, `attorney`, `Daniel`, `Marcus`]}
       />
       {data.site.siteMetadata.description && (
