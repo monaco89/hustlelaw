@@ -1,5 +1,5 @@
 module.exports = {
-  name: "Hustle Law Group",
+  name: "Hustle Law",
   shortName: "Hustle",
   description:
     "BECAUSE IF YOU'RE GOING TO HUSTLE TO MAKE IT HAPPEN YOU NEED AN ADVOCATE THAT DOES THE SAME",

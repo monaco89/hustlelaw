@@ -32,39 +32,41 @@ const Home = ({ data }, location) => {
         keywords={[`hustle`, `law`, `attorney`, `Daniel`, `Marcus`]}
       />
       {data.site.siteMetadata.description && (
-        <header className="page-head">
-          <h1 className="page-head-title">RE &#183; LENT &#183; LESS</h1>
-          <p>/rə&apos;len(t)ləs/</p>
-          <h4 id="heading-level-4">NOUN, VERB, WAY OF LIFE</h4>
-          <h6 id="heading-level-6">
-            <ol>
-              <li>The indomitable spirit of those who dream.</li>
-              <li>The relentless pursuit of something important.</li>
-              <li>Doing whatever it takes.</li>
-              <li>Not taking "no" for an answer.</li>
-            </ol>
-          </h6>
-          <ul className="actions fit">
-            <li>
-              <a
-                href="#"
-                className="button primary fit large"
-                style={{ marginTop: "50px" }}
-              >
-                Schedule Your Free Consultation
-              </a>
-            </li>
-            <li>
-              <a
-                href="#who-we-are"
-                className="button primary fit large"
-                style={{ marginTop: "50px" }}
-              >
-                What Makes Us Different
-              </a>
-            </li>
-          </ul>
-        </header>
+        <div className="header-background">
+          <header className="page-head">
+            <h1 className="page-head-title">RE &#183; LENT &#183; LESS</h1>
+            <p>/rə&apos;len(t)ləs/</p>
+            <h4 id="heading-level-4">NOUN, VERB, WAY OF LIFE</h4>
+            <h6 id="heading-level-6">
+              <ol>
+                <li>The indomitable spirit of those who dream.</li>
+                <li>The relentless pursuit of something important.</li>
+                <li>Doing whatever it takes.</li>
+                <li>Not taking "no" for an answer.</li>
+              </ol>
+            </h6>
+            <ul className="actions fit">
+              <li>
+                <a
+                  href="#"
+                  className="button primary fit large"
+                  style={{ marginTop: "50px" }}
+                >
+                  Schedule Your Free Consultation
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#who-we-are"
+                  className="button primary fit large"
+                  style={{ marginTop: "50px" }}
+                >
+                  What Makes Us Different
+                </a>
+              </li>
+            </ul>
+          </header>
+        </div>
       )}
       <WhoWeAre />
       <OurStory />
