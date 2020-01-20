@@ -161,7 +161,7 @@ body {
 
 .nav {
   display: flex;
-  margin: 0 0 0 -12px;
+  margin: 0 0 0 0px;
   padding: 0;
   list-style: none;
 }
@@ -178,8 +178,12 @@ body {
   margin: 0;
   padding: 10px 12px;
   color: var(--color-base);
-  font-weight: 600;
-  opacity: 0.4;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.site-head-right {
+  font-size: 1.8rem;
 }
 
 .nav-current a,
@@ -215,7 +219,7 @@ body {
   display: block;
   margin-top: 2px;
   width: auto;
-  height: 28px;
+  height: 60px;
 }
 
 .site-head-right {

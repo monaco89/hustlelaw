@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import PostCard from "../components/postCard"
 import WhoWeAre from "../components/WhoWeAre"
 import Attorneys from "../components/Attorneys"
-// TODO Make Clients component work
+// TODO Make Clients component work on yarn build
 // import Clients from "../components/Clients"
 import HLLogo from "../images/HL_no_background_white.png"
 import client1 from "../images/clients/brashful.png"

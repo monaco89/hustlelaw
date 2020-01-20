@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Logo from "../images/nav_white.png"
+
 const Layout = props => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
@@ -25,6 +27,13 @@ const Layout = props => {
             </div>
           </a>
           <nav id="swup" class="site-head-left">
+            <Link className="site-head-logo" to={`/`}>
+              <img src={Logo} />
+              {/* {title} */}
+            </Link>
+          </nav>
+          <div className="site-head-center"></div>
+          <div className="site-head-right">
             <ul className="nav" role="menu">
               {/* <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Home</Link>
@@ -36,18 +45,10 @@ const Layout = props => {
                 <Link to={`#services`}>Services</Link>
               </li>
               <li className="nav-tags" role="menuitem">
-                <Link to={`/tags`}>Schedule Free Consultation</Link>
+                <Link to={`#contact-us`}>Contact Us</Link>
               </li>
             </ul>
-          </nav>
-          <div className="site-head-center">
-            <Link className="site-head-logo" to={`/`}>
-              {/* <img src={Logo} /> */}
-              {title}
-            </Link>
-          </div>
-          <div className="site-head-right">
-            <div className="social-links">
+            {/* <div className="social-links">
               <a
                 href="https://www.facebook.com/hustlelaw"
                 title="Facebook"
@@ -80,7 +81,7 @@ const Layout = props => {
               >
                 LinkedIn
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </header>
