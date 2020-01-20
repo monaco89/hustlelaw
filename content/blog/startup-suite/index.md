@@ -1,6 +1,6 @@
 ---
 title: Startup Suite
-date: "2019-05-01"
+date: "2015-05-28T22:41:32.169Z"
 thumbnail: ./startup.jpg
 ---
 

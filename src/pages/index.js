@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostCard from "../components/postCard"
 import WhoWeAre from "../components/WhoWeAre"
+import OurStory from "../components/OurStory"
+import WhatWeDo from "../components/WhatWeDo"
 import Attorneys from "../components/Attorneys"
 // TODO Make Clients component work on yarn build
 // import Clients from "../components/Clients"
@@ -65,27 +67,16 @@ const Home = ({ data }, location) => {
         </header>
       )}
       <WhoWeAre />
-      <div className="post-feed">
-        {posts.slice(0, 2).map(({ node }) => {
-          postCounter++
-          return (
-            <PostCard
-              key={node.fields.slug}
-              count={postCounter}
-              node={node}
-              postClass={`post`}
-            />
-          )
-        })}
-      </div>
-      {/* // TODO Don't do this... */}
+      <OurStory />
+      <WhatWeDo />
+      {/* // TODO Don't do this..., make a header */}
       <article className="post-content page-template no-image">
         <div id="services" className="post-content-body">
           <h1 id="this-is-a-section">-- Services --</h1>
         </div>
       </article>
       <div className="post-feed">
-        {posts.slice(3, 9).map(({ node }) => {
+        {posts.map(({ node }) => {
           postCounter++
           return (
             <PostCard
