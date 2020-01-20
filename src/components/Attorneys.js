@@ -7,76 +7,18 @@ const Attorneys = () => (
   <article className="post-content page-template no-image">
     <div className="post-content-body">
       <h1 id="this-is-a-section">-- Our Attorneys--</h1>
-      <h3 id="definition">
-        <strong>Sarah Smith - Of Counsel</strong>
-      </h3>
       <div className="row">
         <div className="col-3">
           <div
             style={{
-              padding: "1rem 0",
-              textAlign: "center",
-              background: "#1d1d1f",
-            }}
-          >
-            <img src={sarah} />
-
-            <dl>
-              <dt>Education</dt>
-              <dd>
-                <p>B.S. Texas A&amp;M</p>
-              </dd>
-              <dd>
-                <p>J.D. New York Law School</p>
-              </dd>
-              <dt>Admissions</dt>
-              <dd>
-                <p>New York</p>
-              </dd>
-            </dl>
-          </div>
-        </div>
-        <div className="col-9">
-          <div
-            style={{
-              padding: "1rem 1rem",
-              textAlign: "left",
-              background: "#1d1d1f",
-            }}
-          >
-            <p>
-              Like our Founding Partner, Sarah Smith has a passion and a knack
-              for getting creative endeavors off the ground, building legal
-              strategies that revolve around the unique creative abilities of
-              our diverse group of clients. She decided to become an attorney
-              after copyrighting her own music and witnessing first-hand the
-              power a zealous and forward-thinking advocate can have on an
-              artist's long-term success. After serving in an in-house capacity
-              at Louis Vuitton and it’s parent, LVMH, where she primarily
-              focused on intellectual property enforcement, Sarah went on to
-              work in judgement enforcement and commercial litigation. Her
-              current practice for start-up and entrepreneurial clients focuses
-              on entity formation, equity agreements, real property
-              acquisition/usage, and employment law
-            </p>
-          </div>
-        </div>
-      </div>
-      <h3 id="definition">
-        <strong>Daniel Marcus - Founding Partner</strong>
-      </h3>
-      <div className="row">
-        <div className="col-3">
-          <div
-            style={{
-              padding: "1rem 0",
+              padding: "0rem 0rem 1rem",
               textAlign: "center",
               background: "#1d1d1f",
             }}
           >
             <img src={dan} />
 
-            <dl>
+            <dl style={{ marginTop: "30px" }}>
               <dt>Education</dt>
               <dd>
                 <p>B.S. New York University</p>
@@ -92,6 +34,16 @@ const Attorneys = () => (
           </div>
         </div>
         <div className="col-9">
+          <h3
+            style={{
+              padding: "1rem 1rem",
+              textAlign: "left",
+              background: "#1d1d1f",
+            }}
+            id="definition"
+          >
+            <strong>Daniel Marcus - Founding Partner</strong>
+          </h3>
           <div
             style={{
               padding: "1rem 1rem",
@@ -152,6 +104,68 @@ const Attorneys = () => (
               the ticketing space, Dan is an industry thought leader whose work
               has been featured in publications such as Yahoo Finance and
               SportTechie.{" "}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="row" style={{ marginTop: "100px" }}>
+        <div className="col-3">
+          <div
+            style={{
+              padding: "0rem 0rem 1rem",
+              textAlign: "center",
+              background: "#1d1d1f",
+            }}
+          >
+            <img src={sarah} />
+
+            <dl style={{ marginTop: "30px" }}>
+              <dt>Education</dt>
+              <dd>
+                <p>B.S. Texas A&amp;M</p>
+              </dd>
+              <dd>
+                <p>J.D. New York Law School</p>
+              </dd>
+              <dt>Admissions</dt>
+              <dd>
+                <p>New York</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div className="col-9">
+          <h3
+            style={{
+              padding: "1rem 1rem",
+              textAlign: "left",
+              background: "#1d1d1f",
+            }}
+            id="definition"
+          >
+            <strong>Sarah Smith - Of Counsel</strong>
+          </h3>
+          <div
+            style={{
+              padding: "1rem 1rem",
+              textAlign: "left",
+              background: "#1d1d1f",
+            }}
+          >
+            <p>
+              Like our Founding Partner, Sarah Smith has a passion and a knack
+              for getting creative endeavors off the ground, building legal
+              strategies that revolve around the unique creative abilities of
+              our diverse group of clients. She decided to become an attorney
+              after copyrighting her own music and witnessing first-hand the
+              power a zealous and forward-thinking advocate can have on an
+              artist's long-term success. After serving in an in-house capacity
+              at Louis Vuitton and it’s parent, LVMH, where she primarily
+              focused on intellectual property enforcement, Sarah went on to
+              work in judgement enforcement and commercial litigation. Her
+              current practice for start-up and entrepreneurial clients focuses
+              on entity formation, equity agreements, real property
+              acquisition/usage, and employment law
             </p>
           </div>
         </div>

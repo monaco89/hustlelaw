@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "../components/layout"
@@ -16,13 +16,14 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+
         <article
           className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
         >
           <header className="post-content-header">
             <h1 className="post-content-title">{post.frontmatter.title}</h1>
           </header>
-
+          <Link to={`/#services`}>Back</Link>
           {post.frontmatter.description && (
             <p class="post-content-excerpt">{post.frontmatter.description}</p>
           )}
