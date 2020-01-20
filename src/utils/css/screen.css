@@ -834,3 +834,7 @@ body {
   margin: auto;
   text-align: center;
 }
+
+form input {
+  margin-bottom: 20px;
+}

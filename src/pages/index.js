@@ -8,9 +8,10 @@ import WhoWeAre from "../components/WhoWeAre"
 import OurStory from "../components/OurStory"
 import WhatWeDo from "../components/WhatWeDo"
 import Attorneys from "../components/Attorneys"
+import ContactUs from "../components/ContactUs"
+import Subscribe from "../components/Subscribe"
 // TODO Make Clients component work on yarn build
 // import Clients from "../components/Clients"
-import HLLogo from "../images/HL_no_background_white.png"
 import client1 from "../images/clients/brashful.png"
 import client2 from "../images/clients/lacallefb.png"
 import client3 from "../images/clients/megafanslogo.jpg"
@@ -34,8 +35,8 @@ const Home = ({ data }, location) => {
       {data.site.siteMetadata.description && (
         <div className="header-background">
           <header className="page-head">
-            <h1 className="page-head-title">RE &#183; LENT &#183; LESS</h1>
-            <p>/rə&apos;len(t)ləs/</p>
+            <h1 className="page-head-title">HUS &#183; TLE</h1>
+            <p>/&apos;həsəl/</p>
             <h4 id="heading-level-4">NOUN, VERB, WAY OF LIFE</h4>
             <h6 id="heading-level-6">
               <ol>
@@ -45,26 +46,18 @@ const Home = ({ data }, location) => {
                 <li>Not taking "no" for an answer.</li>
               </ol>
             </h6>
-            <ul className="actions fit">
-              <li>
-                <a
-                  href="#"
-                  className="button primary fit large"
-                  style={{ marginTop: "50px" }}
-                >
-                  Schedule Your Free Consultation
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#who-we-are"
-                  className="button primary fit large"
-                  style={{ marginTop: "50px" }}
-                >
-                  What Makes Us Different
-                </a>
-              </li>
-            </ul>
+            <a
+              href="#contact-us"
+              className="button primary fit large"
+              style={{
+                marginTop: "50px",
+                color: "#2997ff",
+                // boxShadow: "inset 0 0 0 2px white",
+                backgroundColor: "white",
+              }}
+            >
+              Schedule Your Free Consultation
+            </a>
           </header>
         </div>
       )}
@@ -140,6 +133,8 @@ const Home = ({ data }, location) => {
         </div>
       </article>
       <Attorneys />
+      <Subscribe />
+      <ContactUs />
     </Layout>
   )
 }
