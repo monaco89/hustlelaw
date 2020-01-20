@@ -17,6 +17,7 @@ import client1 from "../images/clients/brashful.png"
 import client2 from "../images/clients/lacallefb.png"
 import client3 from "../images/clients/megafanslogo.jpg"
 import client4 from "../images/clients/shv.jpg"
+import arrow from "../images/arrow.png"
 
 // import "../utils/global.scss"
 import "../utils/normalize.css"
@@ -59,6 +60,16 @@ const Home = ({ data }, location) => {
             >
               Schedule Your Free Consultation
             </a>
+            <img
+              style={{
+                marginTop: "50px",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+              src={arrow}
+              height="100"
+              width="200"
+            />
           </header>
         </div>
       )}
@@ -135,7 +146,6 @@ const Home = ({ data }, location) => {
       </article>
       <Attorneys />
       <Subscribe />
-      <RssFeed />
       <ContactUs />
     </Layout>
   )
