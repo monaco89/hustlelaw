@@ -106,6 +106,16 @@ const Attorneys = () => (
               SportTechie.{" "}
             </p>
           </div>
+          <h3>Contact</h3>
+          <div
+            style={{
+              padding: "0rem 1rem",
+              textAlign: "left",
+              background: "#1d1d1f",
+            }}
+          >
+            <p>dan@hustlelawgroup.com</p>
+          </div>
         </div>
       </div>
       <div className="row" style={{ marginTop: "100px" }}>

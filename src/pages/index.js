@@ -10,6 +10,7 @@ import WhatWeDo from "../components/WhatWeDo"
 import Attorneys from "../components/Attorneys"
 import ContactUs from "../components/ContactUs"
 import Subscribe from "../components/Subscribe"
+import RssFeed from "../components/RssFeed"
 // TODO Make Clients component work on yarn build
 // import Clients from "../components/Clients"
 import client1 from "../images/clients/brashful.png"
@@ -134,6 +135,7 @@ const Home = ({ data }, location) => {
       </article>
       <Attorneys />
       <Subscribe />
+      <RssFeed />
       <ContactUs />
     </Layout>
   )

@@ -838,3 +838,11 @@ body {
 form input {
   margin-bottom: 20px;
 }
+
+.what-we-do {
+  background-image: url("../../images/what-we-do-3.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
