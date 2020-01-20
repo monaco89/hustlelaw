@@ -72,7 +72,7 @@ const Home = ({ data }, location) => {
       {/* // TODO Don't do this..., make a header */}
       <article className="post-content page-template no-image">
         <div id="services" className="post-content-body">
-          <h1 id="this-is-a-section">-- Services --</h1>
+          <h1 id="this-is-a-section">&mdash; Services &mdash;</h1>
         </div>
       </article>
       <div className="post-feed">
@@ -90,7 +90,7 @@ const Home = ({ data }, location) => {
       </div>
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h1 id="this-is-a-section">-- Featured Clients --</h1>
+          <h1 id="this-is-a-section">&mdash; Featured Clients &mdash;</h1>
         </div>
       </article>
       <article>

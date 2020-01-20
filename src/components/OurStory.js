@@ -6,7 +6,7 @@ import danWithSign from "../images/dan_with_sign.jpg"
 const OurStory = () => (
   <article className="post-content page-template">
     <div className="post-content-body">
-      <h1 id="our-story">-- Our Story --</h1>
+      <h1 id="our-story">&mdash; Our Story &mdash;</h1>
       <div className="row">
         <div className="col-6">
           <div className="post-content-image">

@@ -6,7 +6,7 @@ import sarah from "../images/attorneys/sarah.jpg"
 const Attorneys = () => (
   <article className="post-content page-template no-image">
     <div className="post-content-body">
-      <h1 id="this-is-a-section">-- Our Attorneys--</h1>
+      <h1 id="this-is-a-section">&mdash; Our Attorneys &mdash;</h1>
       <div className="row">
         <div className="col-3">
           <div

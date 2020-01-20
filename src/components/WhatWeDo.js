@@ -3,7 +3,7 @@ import React from "react"
 const WhatWeDo = () => (
   <article className="post-content page-template no-image">
     <div className="post-content-body">
-      <h1 id="what-we-do">-- What We Do --</h1>
+      <h1 id="what-we-do">&mdash; What We Do &mdash;</h1>
       <h3>In Short, WE GET THINGS DONE.</h3>
       <p>
         We’re a flexible firm capable of adapting and tailoring ourselves to
