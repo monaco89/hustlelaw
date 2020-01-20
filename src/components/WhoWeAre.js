@@ -4,7 +4,7 @@ const WhoWeAre = () => (
   <article className="post-content page-template no-image">
     <div className="post-content-body">
       <hr />
-      <h1 id="this-is-a-section">-- Who We Are --</h1>
+      <h1 id="who-we-are">-- Who We Are --</h1>
       <p>
         Hustle Law is a law firm that caters to the creatives, dreamers,
         start-up founders, entertainers, athletes, and anyone else simply trying
