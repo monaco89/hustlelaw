@@ -16,7 +16,7 @@ const Attorneys = () => (
               background: "#1d1d1f",
             }}
           >
-            <img src={dan} />
+            <img src={dan} alt="dan" />
 
             <dl style={{ marginTop: "30px" }}>
               <dt>Education</dt>
@@ -29,6 +29,17 @@ const Attorneys = () => (
               <dt>Admissions</dt>
               <dd>
                 <p>New York</p>
+              </dd>
+            </dl>
+            <dl style={{ overflow: "hidden" }}>
+              <dt>Contact</dt>
+              <dd>
+                <a
+                  href="mailto:dan@hustlelawgroup.com"
+                  style={{ fontSize: "1.5rem" }}
+                >
+                  dan@hustlelawgroup.com
+                </a>
               </dd>
             </dl>
           </div>
@@ -106,16 +117,6 @@ const Attorneys = () => (
               SportTechie.{" "}
             </p>
           </div>
-          <h3>Contact</h3>
-          <div
-            style={{
-              padding: "0rem 1rem",
-              textAlign: "left",
-              background: "#1d1d1f",
-            }}
-          >
-            <p>dan@hustlelawgroup.com</p>
-          </div>
         </div>
       </div>
       <div className="row" style={{ marginTop: "100px" }}>
@@ -127,7 +128,7 @@ const Attorneys = () => (
               background: "#1d1d1f",
             }}
           >
-            <img src={sarah} />
+            <img src={sarah} alt="sarah" />
 
             <dl style={{ marginTop: "30px" }}>
               <dt>Education</dt>

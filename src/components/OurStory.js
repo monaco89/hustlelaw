@@ -1,5 +1,4 @@
 import React from "react"
-import Img from "gatsby-image"
 
 import danWithSign from "../images/dan_with_sign.jpg"
 

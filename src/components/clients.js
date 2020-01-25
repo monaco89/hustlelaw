@@ -15,7 +15,7 @@ const Clients = () => (
             textAlign: "center",
           }}
         >
-          <img src={client1} style={{ height: "280px" }} />
+          <img src={client1} alt="client1" style={{ height: "280px" }} />
         </div>
       </div>
       <div className="col">
@@ -25,7 +25,7 @@ const Clients = () => (
             textAlign: "center",
           }}
         >
-          <img src={client2} style={{ height: "280px" }} />
+          <img src={client2} alt="client2" style={{ height: "280px" }} />
         </div>
       </div>
       <div className="col">
@@ -35,7 +35,7 @@ const Clients = () => (
             textAlign: "center",
           }}
         >
-          <img src={client3} style={{ height: "280px" }} />
+          <img src={client3} alt="client3" style={{ height: "280px" }} />
         </div>
       </div>
       <div className="col">
@@ -45,7 +45,7 @@ const Clients = () => (
             textAlign: "center",
           }}
         >
-          <img src={client4} style={{ height: "280px" }} />
+          <img src={client4} alt="client4" style={{ height: "280px" }} />
         </div>
       </div>
     </div>

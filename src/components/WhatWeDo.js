@@ -3,7 +3,13 @@ import React from "react"
 const WhatWeDo = () => (
   <div className="what-we-do">
     <article className="post-content page-template no-image">
-      <div className="post-content-body">
+      <div
+        className="post-content-body"
+        style={{
+          backgroundColor: "rgba(0, 0, 0, 0.7)",
+          padding: "15px",
+        }}
+      >
         <h1 id="what-we-do">&mdash; What We Do &mdash;</h1>
         <h3>In Short, WE GET THINGS DONE.</h3>
         <p>

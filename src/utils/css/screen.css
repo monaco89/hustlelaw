@@ -136,6 +136,9 @@ body {
   text-align: center;
   color: color(var(--color-border) l(-20%));
   font-size: 1.4rem;
+  /* background-image: url("../../images/hustle_neon-2.jpg");
+  background-position: center;
+  padding: 20px; */
 }
 
 .site-foot a {

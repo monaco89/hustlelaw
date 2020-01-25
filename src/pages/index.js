@@ -10,7 +10,6 @@ import WhatWeDo from "../components/WhatWeDo"
 import Attorneys from "../components/Attorneys"
 import ContactUs from "../components/ContactUs"
 import Subscribe from "../components/Subscribe"
-import RssFeed from "../components/RssFeed"
 // TODO Make Clients component work on yarn build
 // import Clients from "../components/Clients"
 import client1 from "../images/clients/brashful.png"
@@ -69,6 +68,7 @@ const Home = ({ data }, location) => {
               src={arrow}
               height="100"
               width="200"
+              alt="arrow"
             />
           </header>
         </div>
@@ -109,7 +109,7 @@ const Home = ({ data }, location) => {
                 textAlign: "center",
               }}
             >
-              <img src={client1} style={{ height: "280px" }} />
+              <img src={client1} alt="client1" style={{ height: "280px" }} />
             </div>
           </div>
           <div className="col">
@@ -119,7 +119,7 @@ const Home = ({ data }, location) => {
                 textAlign: "center",
               }}
             >
-              <img src={client2} style={{ height: "280px" }} />
+              <img src={client2} alt="client2" style={{ height: "280px" }} />
             </div>
           </div>
           <div className="col">
@@ -129,7 +129,7 @@ const Home = ({ data }, location) => {
                 textAlign: "center",
               }}
             >
-              <img src={client3} style={{ height: "280px" }} />
+              <img src={client3} alt="client3" style={{ height: "280px" }} />
             </div>
           </div>
           <div className="col">
@@ -139,7 +139,7 @@ const Home = ({ data }, location) => {
                 textAlign: "center",
               }}
             >
-              <img src={client4} style={{ height: "280px" }} />
+              <img src={client4} alt="client4" style={{ height: "280px" }} />
             </div>
           </div>
         </div>
