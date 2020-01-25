@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="80" />
-  </a>
-</p>
-
 # Hustle Law Group.com
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0ca56d69-8f0c-4559-b896-af1d4f11d108/deploy-status)](https://app.netlify.com/sites/quizzical-murdock-e7e931/deploys)
