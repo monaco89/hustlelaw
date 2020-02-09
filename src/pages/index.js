@@ -103,7 +103,7 @@ const Home = ({ data }, location) => {
       </article>
       <article>
         <div className="row">
-          <div className="col">
+          <div className="col-3">
             <div
               style={{
                 padding: "1rem 0",
@@ -113,7 +113,7 @@ const Home = ({ data }, location) => {
               <img src={client1} alt="client1" style={{ height: "280px" }} />
             </div>
           </div>
-          <div className="col">
+          <div className="col-3">
             <div
               style={{
                 padding: "1rem 0",
@@ -123,7 +123,7 @@ const Home = ({ data }, location) => {
               <img src={client2} alt="client2" style={{ height: "280px" }} />
             </div>
           </div>
-          <div className="col">
+          <div className="col-3">
             <div
               style={{
                 padding: "1rem 0",
@@ -133,7 +133,7 @@ const Home = ({ data }, location) => {
               <img src={client3} alt="client3" style={{ height: "280px" }} />
             </div>
           </div>
-          <div className="col">
+          <div className="col-3">
             <div
               style={{
                 padding: "1rem 0",

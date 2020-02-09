@@ -94,7 +94,7 @@ const Layout = props => {
         <Link to={`/`}>Hit Us With Your Hustles</Link> &mdash;{" "}
         <a href="mailto:info@hustlelawgroup.com">info@hustlelawgroup.com</a>
         <div className="site-head-right">
-          <p>79 Madison Ave, New York, NY, 10016</p>
+          <p>33 Irving Pl, New York, NY, 10003</p>
         </div>
         <div className="site-head-right">
           <p>201-285-7351</p>
