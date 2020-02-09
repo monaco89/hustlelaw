@@ -90,8 +90,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#000000`,
         display: `minimal-ui`,
-        // TODO Change icon
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/h.png`,
       },
     },
     `gatsby-plugin-netlify`,
