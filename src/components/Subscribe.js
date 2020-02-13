@@ -33,6 +33,7 @@ const Subscribe = () => (
           //     required: true,
           //   },
         ]}
+        className="mailchimp"
       />
     </div>
   </article>
