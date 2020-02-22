@@ -91,7 +91,7 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        <Link to={`/`}>Hit Us With Your Hustles</Link> &mdash;{" "}
+        <Link to={`/#contact-us`}>Hit Us With Your Hustles</Link> &mdash;{" "}
         <a href="mailto:info@hustlelawgroup.com">info@hustlelawgroup.com</a>
         <div className="site-head-right">
           <p>33 Irving Pl, New York, NY, 10003</p>
@@ -99,6 +99,15 @@ const Layout = props => {
         <div className="site-head-right">
           <p>201-285-7351</p>
         </div>
+        <br />
+        <p>
+          Hustle Law is merely the brand name of the law practice of Daniel
+          Marcus, Esq and is not intended to mislead or be misconstrued as the
+          registered name or the trade name of the practice. To the extent there
+          is any confusion, visitors of this website are encouraged to contact
+          us directly with any questions, comments or concerns via email at{" "}
+          <a href="mailto:info@hustlelawgroup.com">info@hustlelawgroup.com</a>
+        </p>
       </footer>
     </div>
   )
